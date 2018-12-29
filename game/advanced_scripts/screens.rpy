@@ -573,7 +573,7 @@ style main_menu_vbox is vbox
 style main_menu_text is gui_text
 style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text:
-    color "#000000"
+    color "#FFF"
     size 16
     outlines []
 
@@ -922,7 +922,7 @@ style slot_button:
 
 style slot_button_text:
     properties gui.button_text_properties("slot_button")
-    color "#666"
+    color "#aa95ba"
     outlines []
 
 
@@ -1495,7 +1495,7 @@ style confirm_frame:
     yalign .5
 
 style confirm_prompt_text:
-    color "#000"
+    color "#FFF"
     outlines []
     text_align 0.5
     layout "subtitle"

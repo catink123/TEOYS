@@ -58,6 +58,8 @@ define audio.dream = "mod_assets/bgm/dream.ogg"
 define audio.yuri_remember = "mod_assets/bgm/yuri_remember.ogg" 
 define audio.monika_ct = "mod_assets/bgm/monika_cheto_tam.ogg"
 define audio.monika_ct2 = "mod_assets/bgm/monika_cheto_tam2.ogg"
+define audio.s_and_m = "mod_assets/bgm/s_and_m.ogg"
+define audio.neshta = "mod_assets/bgm/neshta.ogg"
 
 define audio.t2 = "<loop 4.499>bgm/2.ogg"   #Sayori theme
 define audio.t2g = "bgm/2g.ogg"
@@ -121,6 +123,7 @@ define audio.door_close = "mod_assets/sounds/door-close.ogg"
 define audio.gasp = "mod_assets/sounds/gasp.ogg"
 define audio.laugh = "mod_assets/sounds/laugh.ogg"
 define audio.bell = "mod_assets/sounds/bell.ogg"
+define audio.seesaw = "mod_assets/sounds/seesaw.ogg"
 
 # Backgrounds
 image black = "#000000"
@@ -148,6 +151,7 @@ image bg poliklinika = "bg/poliklinika.jpg"
 image bg pub = "bg/pub.jpg"
 image bg river = "bg/river.jpg"
 image bg roof = "bg/roof.jpg"
+image bg roof2 = "bg/roof2.jpg"
 image bg schoolcorridor2 = "bg/schoolcorridor2.jpg"
 image bg space = "bg/space.jpg"
 image bg stolovaya = "bg/stolovaya.jpg"
@@ -160,8 +164,11 @@ image bg bus_outside = "bg/bus_outside.jpg"
 image bg hotel = "bg/hotel.jpg"
 image bg clouds = "bg/clouds.png"
 image bg castle1 = "bg/castle1.jpg"
+image bg sky = "bg/sky.jpg"
 image art_yuribook = "artwork/yuribook.jpg"
 image tbc = "artwork/tbc.png"
+image sayori_cry_top = "artwork/sayori_cry_top.png"
+image sayori_cry_bottom = "artwork/sayori_cry_bottom.png"
 
 #image 
 image bg club_day2:

@@ -255,6 +255,10 @@ init python:
     build.classify('/game/cache/*.*', None)
     build.classify('**.rpa',None)
 
+    # build.classify('game/images.rpa', 'android')
+    # build.classify('game/fonts.rpa', 'android')
+    # build.classify('game/audio.rpa', 'android')
+
     ## Files matching documentation patterns are duplicated in a mac app build,
     ## so they appear in both the app and the zip file.
 

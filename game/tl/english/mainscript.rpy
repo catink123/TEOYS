@@ -298,7 +298,7 @@ translate english mainscript_4a3ab490:
 translate english mainscript_c31eb791:
 
     # "С улыбкой на лице, учитель достал журнал и начал называть имена учеников. Как только очередь дошла до меня, послышался стук в дверь."
-    "With a smile on her face, she took out the classbook and started to call out the names. Just as my name was next, the knock on the door could be heard."
+    "With a smile on her face, she took out the classbook and started to call out the names. Just as my name was next, someone knocked on the door."
 
 # game/mainscript.rpy:90
 translate english mainscript_63bd5c07:
@@ -316,25 +316,25 @@ translate english mainscript_28233882:
 translate english mainscript_6874394d:
 
     # "Девушка с длинными фиолетовыми волосами чуть ли не крикнула."
-    "A girl with a long purple hair almost yelled."
+    "A girl with long purple hair almost yelled."
 
 # game/mainscript.rpy:95
 translate english mainscript_a03c6844:
 
     # tchr "Ты у нас Юри, так? Ничего страшного, ты можешь сесть рядом с [player]."
-    tchr "You are Yuri, right? It's okay, you can sit with [player]."
+    tchr "You are Yuri, right? It's okay, you can sit next to [player]."
 
 # game/mainscript.rpy:97
 translate english mainscript_66d16c92:
 
     # y 1b "Да, хорошо."
-    y 1b "Okay."
+    y 1b "Alright."
 
 # game/mainscript.rpy:99
 translate english mainscript_9598d450:
 
     # "Девушка медленно подошла к парте, достала вещи и присела. Учитель продолжил называть имена."
-    "The girl slowly walked to the desk, took out her stuff and sat on the chair close to me. Teacher continued to call out the names."
+    "The girl slowly walked to the desk, took out her stuff and sat on the chair next to me. Teacher continued to call out the names."
 
 # game/mainscript.rpy:100
 translate english mainscript_cdd46a35:
@@ -352,7 +352,7 @@ translate english mainscript_f0487ed8:
 translate english mainscript_ad20d7e7:
 
     # "Может мне и показалось, но когда назвали мое имя девушка сидевшая рядом со мной вздрогнула. Но я не обратил на это внимания."
-    "Maybe it seemed to me, but when my name was called out, the girl that was sitting close to me flinched. But I didn't pay attention to it."
+    "Maybe it seemed to me, but when my name was called out, the girl sitting close to me flinched. But I didn't pay attention to it."
 
 # game/mainscript.rpy:105
 translate english mainscript_2219a97c:
@@ -2701,4 +2701,222 @@ translate english _call_showpoem_7_d4afd6a8:
 
     # "Я решила, что будет лучше если мы никогда не встретимся, поэтому уехала в Токио. Даже сейчас я не знаю очнулась она или нет."
     "I decided it would be better if we never meet, so I went to Tokyo, even now I do not know if she woke up or not."
+
+# TODO: Translation updated at 2018-12-26 16:53
+
+# game/mainscript.rpy:733
+translate english _call_showpoem_7_1e9b38ce:
+
+    # h "Ой прости [player], я забыла взять список. Сейчас приду."
+    h ""
+
+# game/mainscript.rpy:904
+translate english _call_showpoem_7_3f85c9d5:
+
+    # "Но сейчас у меня появился шанс всё исправить."
+    ""
+
+# game/mainscript.rpy:905
+translate english _call_showpoem_7_85b576cd:
+
+    # "Или нет-"
+    ""
+
+# game/mainscript.rpy:908
+translate english _call_showpoem_7_8a0f1051:
+
+    # s "Привет Моника."
+    s ""
+
+# game/mainscript.rpy:909
+translate english _call_showpoem_7_5d0ad392:
+
+    # "Я услышала знакомый, столь желанный голос позади себя. Внезапно пошёл...снег?"
+    ""
+
+# game/mainscript.rpy:911
+translate english _call_showpoem_7_4178b79b:
+
+    # m "С-Саёри...?"
+    m ""
+
+# game/mainscript.rpy:914
+translate english _call_showpoem_7_afcd3f4f:
+
+    # s "Не ожидала? Хах, если честно, увидеть тебя здесь было неожиданно.."
+    s ""
+
+# game/mainscript.rpy:915
+translate english _call_showpoem_7_da28cf04:
+
+    # s "Даже тогда когда ты приехала сюда с теми людьми.. Моё сердце разбилось на миллион осколков"
+    s ""
+
+# game/mainscript.rpy:916
+translate english _call_showpoem_7_e612037c:
+
+    # m "..."
+    m ""
+
+# game/mainscript.rpy:917
+translate english _call_showpoem_7_f54ad4b1:
+
+    # s "Как ты могла променять меня на них? Почему я такая неудачница, что даже лучшая подруга решила отвернуться от меня?"
+    s ""
+
+# game/mainscript.rpy:918
+translate english _call_showpoem_7_9bfabe5e:
+
+    # "Саёри начала плакать, в душе скребли кошки и был настоящий ураган, который нельзя успокоить."
+    ""
+
+# game/mainscript.rpy:919
+translate english _call_showpoem_7_30616135:
+
+    # "Я подошла ближе к ней и обняла."
+    ""
+
+# game/mainscript.rpy:920
+translate english _call_showpoem_7_fc4da038:
+
+    # s "Моника?"
+    s ""
+
+# game/mainscript.rpy:921
+translate english _call_showpoem_7_081adf42:
+
+    # m "Прости.."
+    m ""
+
+# game/mainscript.rpy:922
+translate english _call_showpoem_7_5b9c984c:
+
+    # s "Теперь всё хорошо. Ты здесь, со мной, мне ничего больше не нужно для счастья."
+    s ""
+
+# game/mainscript.rpy:923
+translate english _call_showpoem_7_351a22da:
+
+    # "Из моих глаз потекли предательские слёзы и в груди стало теплей. Ураган потихоньку начал угасать и на его место пришёл пожар, который уничтожал всё на своём пути."
+    ""
+
+# game/mainscript.rpy:926
+translate english _call_showpoem_7_cd757eed:
+
+    # "{w=5}"
+    ""
+
+# game/mainscript.rpy:928
+translate english _call_showpoem_7_bd57fe48:
+
+    # mc "Как спать хочется.."
+    mc ""
+
+# game/mainscript.rpy:929
+translate english _call_showpoem_7_2cfeee93_1:
+
+    # "Вдруг у меня зазвонил телефон."
+    ""
+
+# game/mainscript.rpy:932
+translate english _call_showpoem_7_ffd0d80a:
+
+    # mc "Алло?"
+    mc ""
+
+# game/mainscript.rpy:933
+translate english _call_showpoem_7_a605387b:
+
+    # m "[player]? Привет."
+    m ""
+
+# game/mainscript.rpy:934
+translate english _call_showpoem_7_3b92b31e:
+
+    # mc "Моника?"
+    mc ""
+
+# game/mainscript.rpy:935
+translate english _call_showpoem_7_4cf2628c:
+
+    # m "Правильно."
+    m ""
+
+# game/mainscript.rpy:936
+translate english _call_showpoem_7_ce133045:
+
+    # mc "Ты как там?"
+    mc ""
+
+# game/mainscript.rpy:937
+translate english _call_showpoem_7_b9d984e8:
+
+    # m "Всё просто отлично."
+    m ""
+
+# game/mainscript.rpy:938
+translate english _call_showpoem_7_1aba55e8:
+
+    # mc "Это хорошо. Ты долго в Осаке будешь?"
+    mc ""
+
+# game/mainscript.rpy:939
+translate english _call_showpoem_7_6cb588c6:
+
+    # m "Ну, думаю сегодня вечером приеду."
+    m ""
+
+# game/mainscript.rpy:940
+translate english _call_showpoem_7_8cbd104d:
+
+    # mc "Понятно. Ладно, до встречи. У нас урок начинается."
+    mc ""
+
+# game/mainscript.rpy:941
+translate english _call_showpoem_7_a4247c43:
+
+    # m "Хорошо, до завтра."
+    m ""
+
+# game/mainscript.rpy:942
+translate english _call_showpoem_7_5d828e04:
+
+    # "Я быстро положил телефон и вошёл учитель, начался урок."
+    ""
+
+# game/mainscript.rpy:945
+translate english _call_showpoem_7_d458fa6b:
+
+    # "Учебный день закончился и мы с Юри идём домой."
+    ""
+
+# game/mainscript.rpy:946
+translate english _call_showpoem_7_802db361:
+
+    # "Я довёл её до дома, а сам пошёл в парк."
+    ""
+
+# game/mainscript.rpy:949
+translate english _call_showpoem_7_1c0f0f72:
+
+    # "Удивительно, но там никого не было. Ни одной живой души так сказать."
+    ""
+
+# game/mainscript.rpy:951
+translate english _call_showpoem_7_0d1ee2fb:
+
+    # "Легкий ветерок обдувает мою кожу под тихий звук качель, раскачивающихся ветром."
+    ""
+
+# game/mainscript.rpy:952
+translate english _call_showpoem_7_2e9abb19:
+
+    # "Думаю, стоит уже пойти домой. Темнеет быстро."
+    ""
+
+# game/mainscript.rpy:953
+translate english _call_showpoem_7_8be7fdbb:
+
+    # "Я быстро дошёл до дома. Мама как всегда была на работе, я сделал уроки и лёг спать."
+    ""
 
