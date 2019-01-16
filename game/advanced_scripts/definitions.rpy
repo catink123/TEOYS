@@ -169,6 +169,7 @@ image art_yuribook = "artwork/yuribook.jpg"
 image tbc = "artwork/tbc.png"
 image sayori_cry_top = "artwork/sayori_cry_top.png"
 image sayori_cry_bottom = "artwork/sayori_cry_bottom.png"
+image yurinight = "artwork/yurinight.png"
 
 #image 
 image bg club_day2:

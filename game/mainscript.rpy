@@ -949,12 +949,137 @@
   play sound seesaw
   "Легкий ветерок обдувает мою кожу под тихий звук качель, раскачивающихся ветром."
   "Думаю, стоит уже пойти домой. Темнеет быстро."
-  scene house
+  scene kitchen
   with wipeleft_scene
   "Я быстро дошёл до дома. Мама как всегда была на работе, я сделал уроки и лёг спать."
-  #scene tbc
-  #with dissolve_scene_full
-  #"Продолжение следует..."
-  #scene black 
-  #with dissolve_scene_full
+  scene black
+  with dissolve_scene
+  $ renpy.pause(2)
+  scene bg yurinight
+  with dissolve_scene
+  $ renpy.pause(2)
+  "Юри идёт по ночной улице"
+  y "{i}тяжело дышит{/i} Сколько это будет продолжаться?"
+  scene black
+  with dissolve_scene
+  $ renpy.pause(2)
+  scene bg bedroom
+  with dissolve_scene
+  mc "Аааах..."
+  mum "Доброе утро, [player]."
+  mc "О господи!"
+  "Я упал с кровати, а мама начала смеяться."
+  mc "Больше не пугай меня так..."
+  mum "Прости прости, пошли кушать."
+  mc "Хорошо."
+  scene bg kitchen
+  with wipeleft_scene
+  "Мы пошли с мамой на кухню, позавтракали, поболтали и наступила пора идти в школу."
+  scene bg residential_day
+  show monika 1a at t11
+  "По дороге я встретил Монику."
+  show monika 1b at t11
+  m "Привет [player]!"
+  show monika 1a at t11
+  mc "Привет. Я вижу у тебя хорошее настроение."
+  show monika 1b at t11
+  m "Ага, ты в курсе, что вчера снег был?"
+  show monika 1a at t11
+  mc "Снег? Вроде бы не было ничего такого."
+  scene bg park
+  with wipeleft_scene
+  show monika 1d at t11
+  m "Тогда наверное только в Осаке снег шёл. А Юри где?"
+  show monika 1c at t11
+  mc "Я ещё не видел её сегодня."
+  show monika 1b at t11
+  m "Понятно. О! Мы уже пришли."
+  show monika 1a at t11
+  hide monika
+  scene black
+  with dissolve_scene
+  "Я и Моника переобулись, потом пошли в класс."
+  scene bg class2
+  with dissolve_scene
+  show monika 1c at t22
+  show natsuki 1j at t21
+  mc "Привет Нацуки."
+  show natsuki 1k at f21
+  n "Привет [player]. А Юри где?"
+  show natsuki 1j at t21
+  show monika 1d at f22
+  m "Мы не знаем, может быть она заболела."
+  show monika 1c at t22
+  show natsuki 1q at f21
+  n "Вот как."
+  show natsuki 1u at t21
+  "Нацуки немного поникла."
+  show monika 1k at f22
+  m "Не расстрайвайся, она придёт может через день, два."
+  show monika 1j at t22
+  show natsuki 1j at t21
+  n "Угу."
+  hide natsuki
+  hide monika
+  "Прозвенел звонок, все сели на свои места."
+  tchr "Здравствуйте ребята."
+  tchr "Сегодня к нам перевёлся новый ученик, точнее ученица. Проходи пожалуйста."
+  show sayori 1b at t11
+  "Двери открылись и вошла девушка."
+  show sayori 1c at t11
+  unknown "Здравствуйте."
+  show sayori 1b at t11
+  tchr "Представься."
+  show sayori 1c at t11
+  s "Меня зовут Саёри, рада со всеми вами познакомиться, надеюсь, мы подружимся."
+  show sayori 1b at t11
+  tchr "Так-с... Куда же тебя посадить? "
+  tchr "О, можешь сесть перед Моникой."
+  show sayori 1b at t22
+  show monika 1m at t21
+  m "(Какого чёрта она здесь делает?)"
+  show sayori 1r at f21
+  s "Привет Моника-чан~"
+  show sayori 1q at t21
+  "Саёри улыбнулась в сторону Моники и села за парту."
+  hide monika
+  hide sayori
+  "Учитель начал урок."
+  play sound bell
+  "50 минут прошли незаметно и началась перемена. Моника и Нацуки подошли ко мне."
+  show natsuki 1c at f21
+  show monika 1h at t22
+  n "Как вам новенькая?"
+  show natsuki 1a at t21
+  mc "Довольно необычная."
+  show monika 1i at f22
+  m "Чёрт бы её побрал."
+  show natsuki 1a at t31
+  show monika 1h at t32
+  show sayori 1b at t33
+  "К нам подошла Саёри."
+  show sayori 1c at f33
+  s "Моника, не нужно так дуться. Я же ничего плохого не сделала."
+  show sayori 1b at t33
+  show monika 1i at f32
+  m "Тогда, что ты {i}ЗДЕСЬ{/i} делаешь, а, Саёри?"
+  show monika 1h at t32
+  show sayori 1c at f33
+  s "Я просто хочу быть рядом с тобой, вот и всё."
+  show sayori 1b at t33
+  show monika 1i at f32
+  m "Чё?????"
+  show monika 1h at t32
+  show sayori 1c at f33
+  s "Ты такая смешная. А вы друзья Моники?"
+  show sayori 1a at t33
+  mc "Ну да.."
+  show natsuki 1c at f31
+  n "Скорее всего."
+  show natsuki 1g at t31
+  # scene tbc
+  # with dissolve_scene_full
+  # "Продолжение следует..."
+  # scene black 
+  # with dissolve_scene_full
   return
