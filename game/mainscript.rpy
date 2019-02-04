@@ -943,6 +943,7 @@
   with dissolve_scene_full
   "Учебный день закончился и мы с Юри идём домой."
   "Я довёл её до дома, а сам пошёл в парк."
+  stop music fadeout 5.0
   scene park
   with wipeleft_scene
   "Удивительно, но там никого не было. Ни одной живой души так сказать."
@@ -999,7 +1000,7 @@
   scene black
   with dissolve_scene
   "Я и Моника переобулись, потом пошли в класс."
-  scene bg class2
+  scene bg class
   with dissolve_scene
   show monika 1c at t22
   show natsuki 1j at t21
@@ -1038,9 +1039,9 @@
   show sayori 1b at t22
   show monika 1m at t21
   m "(Какого чёрта она здесь делает?)"
-  show sayori 1r at f21
+  show sayori 1r at f22
   s "Привет Моника-чан~"
-  show sayori 1q at t21
+  show sayori 1q at t22
   "Саёри улыбнулась в сторону Моники и села за парту."
   hide monika
   hide sayori
@@ -1077,6 +1078,62 @@
   show natsuki 1c at f31
   n "Скорее всего."
   show natsuki 1g at t31
+  show monika 1l at f32
+  m "Конечно же вы мои друзья!"
+  show monika 1m at t32
+  show sayori 1b at f33
+  s "Мне кажется или вас как-то меньше стало..? Вроде бы какая-то девушка с фиолетовыми волосами была.."
+  show sayori 1a at t33
+  show natsuki 1c at f31
+  n "А, это Юри. Правда, её сегодня нет в школе."
+  show natsuki 1a at t31
+  show sayori 1r at f33
+  s "Понятненько."
+  show sayori 1q at t33
+  hide monika
+  hide natsuki
+  hide sayori
+  play sound bell
+  "Прозвенел звонок и опять начался урок. Где-то в далеке были слышны голоса."
+  unknown "Саёри-чан такая милая. Ей нужно быть каким-нибудь идолом."
+  unknown "Точно-точно."
+  h "Вы оба, а ну заткнитесь!"
+  unknown "Прости Ханако-чан."
+  pause 1
+  scene park
+  with dissolve_scene_full
+  "День быстро прошёл и я уже иду домой." 
+  "Вдруг у меня зазвонил телефон."
+  mc "Алло?"
+  y "Привет [player]."
+  mc "О, Юри. Ты где сейчас?"
+  y "Дома, я просто немного приболела."
+  mc "Вот как."
+  y "Можно я к тебе приду сейчас? Расскажешь мне, что нового произошло.."
+  mc "Конечно, можно. Только оденься теплее."
+  y "Ладненько, жди."
+  scene black
+  with dissolve_scene
+  "Юри повесила трубку, а я быстро побежал домой." 
+  play sound door_close
+  scene kitchen
+  with dissolve_scene
+  "Мамы не было дома, впрочем как всегда."
+  scene bedroom
+  with wipeleft_scene
+  "Я быстро переоделся и поставил чайник кипятиться."
+  "Звонок в дверь, это Юри."
+  scene kitchen
+  with wipeleft_scene
+  "Я подбегаю к двери и открываю её."
+  play sound door_close
+  show yuri 3db at t11
+  y "Привет."
+  show yuri 3cb at t11
+  mc "Проходи."
+  show yuri 3db at t11
+  y "Спасибо."
+  show yuri 3cb at t11
   # scene tbc
   # with dissolve_scene_full
   # "Продолжение следует..."
