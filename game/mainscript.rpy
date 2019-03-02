@@ -960,7 +960,7 @@
   with dissolve_scene
   $ renpy.pause(2)
   "Юри идёт по ночной улице"
-  y "{i}тяжело дышит{/i} Сколько это будет продолжаться?"
+  y "{i}(тяжело дышит){/i} Сколько это будет продолжаться?"
   scene black
   with dissolve_scene
   $ renpy.pause(2)
