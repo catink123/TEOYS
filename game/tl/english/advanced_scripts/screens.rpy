@@ -111,7 +111,7 @@ translate english strings:
     new "Right"
 
     # advanced_scripts\screens.rpy:961
-    old "Непросмотренный текст"
+    old "Неувиденный текст"
     new "Unseen text"
 
     # advanced_scripts\screens.rpy:962

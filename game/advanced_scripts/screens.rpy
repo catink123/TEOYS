@@ -968,7 +968,7 @@ screen preferences():
                 vbox:
                     style_prefix "check"
                     label _("Пропуск")
-                    textbutton _("Непросмотренный текст") action Preference("skip", "toggle")
+                    textbutton _("Неувиденный текст") action Preference("skip", "toggle")
                     textbutton _("После выборов") action Preference("after choices", "toggle")
                     #textbutton _("Переходы") action InvertSelected(Preference("transitions", "toggle"))
 

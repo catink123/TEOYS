@@ -141,6 +141,24 @@ image bg club_day = "bg/club.png"
 
 #image bg koshka = "bg/koshka.gif"
 
+image placeholder = "placeholder.png"
+
+image dust = "artwork/dust.png"
+image dust2 = "artwork/dust.png"
+image dust3 = "artwork/dust.png"
+
+image snow = "artwork/snow.png"
+image snow2 = "artwork/snow.png"
+image snow3 = "artwork/snow.png"
+
+image minimonika:
+    "gui/poemgame/m_sticker_2.png"
+    on show:
+        alpha 0
+        linear 0.25 alpha 1
+
+image heartbeat = Movie(play="artwork/heartbeat.ogg")
+
 image bg class = "bg/class.jpg"
 image bg class2 = "bg/class2.jpg"
 image bg schoolcorridor1 = "bg/schoolcorridor1.jpg"
@@ -171,7 +189,6 @@ image sayori_cry_top = "artwork/sayori_cry_top.png"
 image sayori_cry_bottom = "artwork/sayori_cry_bottom.png"
 image bg yurinight = "artwork/yurinight.png"
 
-#image 
 image bg club_day2:
     choice:
         "bg club_day"

@@ -194,10 +194,10 @@ define gui.page_button_borders = Borders(10, 4, 10, 4)
 
 #define gui.quick_button_borders = Borders(10, 4, 10, 0)
 define gui.quick_button_text_size = 14
-define gui.quick_button_text_idle_color = "#7a3584"
-define gui.quick_button_text_hover_color = "#d88ce2"
+define gui.quick_button_text_idle_color = "#c577d0" #"#7a3584" 
+define gui.quick_button_text_hover_color = "#e8a4f2" #"#d88ce2"
 define gui.quick_button_text_selected_color = gui.accent_color
-define gui.quick_button_text_insensitive_color = "#9765a9"
+define gui.quick_button_text_insensitive_color = "#4f2455" #"#9765a9"
 
 ## You can also add your own customizations, by adding properly-named variables.
 ## For example, you can uncomment the following line to set the width of a

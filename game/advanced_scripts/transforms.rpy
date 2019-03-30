@@ -511,3 +511,26 @@ init python:
 transform malpha(a=1.00):
     i11
     alpha a
+
+transform dust_scroll:
+    xtile 3
+    ytile 2
+    parallel:
+        subpixel True
+        xoffset 0
+        linear random.random() * 8 + 20 xoffset -720
+        repeat
+    parallel:
+        subpixel True
+        yoffset -720
+        linear random.random() * 8 + 16 yoffset 0
+        repeat
+
+transform dokicha_jump:
+    subpixel True
+    xoffset 90
+    block:
+        yoffset 542
+        easein 0.25 yoffset 502
+        easeout 0.25 yoffset 542
+        repeat

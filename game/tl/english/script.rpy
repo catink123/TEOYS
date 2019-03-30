@@ -44,5 +44,5 @@ translate english strings:
 
     # script.rpy:24
     old "Ханако"
-    new ""
+    new "Hanako"
 
