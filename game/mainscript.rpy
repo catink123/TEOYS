@@ -1127,13 +1127,96 @@
   with wipeleft_scene
   "Я подбегаю к двери и открываю её."
   play sound door_close
-  show yuri 3db at t11
+  show yuri 3bd at t11
   y "Привет."
-  show yuri 3cb at t11
+  show yuri 3bc at t11
   mc "Проходи."
-  show yuri 3db at t11
+  show yuri 3bd at t11
   y "Спасибо."
-  show yuri 3cb at t11
+  show yuri 3bc at t11
+  mc "Давай чая что ли попьём?"
+  show yuri 3bb at t11
+  y "С удовольствием."
+  show yuri 3bc at t11
+  # fixx
+  hide yuri
+  "Мы пошли на кухню, Юри села за стол, а я доставал кружки и наливал чай."
+  mc "Вот, угощайся."
+  show yuri 2bf at t11
+  y "Это мой любимый чай [player]. Неужели наши вкусы до сих пор совпадают?"
+  show yuri 2be at t11
+  mc "Наверное да."
+  show yuri 1bd at t11
+  "Мы засмеялись."
+  show yuri 1bb at t11
+  y "Ну, что нового произошло сегодня?"
+  show yuri 1ba at t11
+  mc "Ну, к нам перешла новая ученица. Её Саёри зовут."
+  show yuri 1bf at t11
+  y "Саёри?"
+  show yuri 1be at t11
+  mc "Ага, ты её знаешь?"
+  show yuri 1bh at t11
+  y "Ну можно сказать, что частично. Пару раз пересекались в средней школе."
+  show yuri 1bi at t11
+  mc "Понятно. Нацуки, скучала по тебе, наверное."
+  show yuri 1bj at t11
+  y "Это так мило с её стороны."
+  show yuri 1bf at t11
+  y "А ты [player]? Скучал по мне?"
+  show yuri 1be at t11
+  mc "Конечно скучал."
+  "Между нами нависла неловкая пауза."
+  mc "Может быть пойдём фильм посмотрим?"
+  show yuri 1bd at t11
+  y "Давай."
+  show yuri 1bc at t11
+  scene bg bedroom with wipeleft
+  "Мы пошли в мою комнату. Я нашёл фильм и мы начали его смотреть."
+  scene yupi with dissolve_scene
+  y "Эй, [player], тебе нравится главная героиня?"
+  mc "Ну, не знаю даже. "
+  y "Она на тебя похожа~"
+  mc "Правда что ли?"
+  y "Угу."
+  scene bg bedroom with dissolve_scene
+  show yuri 1bo at t11
+  "Юри начала кашлять. Я приожил руку к её лбу, он был горячим."
+  mc "Да у тебя температура!"
+  show yuri 1bq at t11
+  y "Ничего страшного, всё нормально."
+  hide yuri
+  "Я быстро побежал на кухню, взял из аптечки таблетки от головы, намочил водой маленькое полотенце и пошёл обратно."
+  mc "Держи таблетку."
+  scene y_cg3_base with dissolve_scene
+  "Я приложил полотенце к щеке Юри."
+  y "Зачем ты это делаешь?"
+  mc "Как говорит мама, я уже мужчина и могу позаботиться о тебе."
+  "Юри засмущалась."
+  y "Хорошая у тебя мама. Ой, уже довольно поздно, мне нужно идти домой."
+  scene bg bedroom with dissolve_scene
+  show yuri 1bs at t11
+  mc "Хорошо, тебя провожать?"
+  show yuri 1bt at t11
+  y "Мне же через дорогу, поэтому не стоит."
+  show yuri 1bs at t11
+  mc "Точно?"
+  scene yuri_bed with dissolve_scene
+  y "Со мной всё будет хорошо, не волнуйся."
+  mc "Давай я тебя хоть до двери провожаю."
+  y "Ладненько~"
+  scene bg kitchen with wipeleft_scene
+  show yuri 1bb at t11
+  y "Пока [player]!"
+  show yuri 1ba at t11
+  mc "Пока."
+  hide yuri
+  m "У нас Юри в гостях была?"
+  mc "О, привет мам. Да."
+  m "Хмм. Неужели у вас 'это' было?"
+  mc "О чём ты вообще?! Мы просто друзья и ничего больше.."
+  m "Правда? Эх, ну ладно. Пошли кофе мне сделаешь."
+  mc "Хорошо."
   # scene tbc
   # with dissolve_scene_full
   # "Продолжение следует..."

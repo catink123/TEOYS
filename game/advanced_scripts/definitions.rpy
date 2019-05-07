@@ -157,8 +157,6 @@ image minimonika:
         alpha 0
         linear 0.25 alpha 1
 
-image heartbeat = Movie(play="artwork/heartbeat.ogg")
-
 image bg class = "bg/class.jpg"
 image bg class2 = "bg/class2.jpg"
 image bg schoolcorridor1 = "bg/schoolcorridor1.jpg"
@@ -188,6 +186,8 @@ image tbc = "artwork/tbc.png"
 image sayori_cry_top = "artwork/sayori_cry_top.png"
 image sayori_cry_bottom = "artwork/sayori_cry_bottom.png"
 image bg yurinight = "artwork/yurinight.png"
+image yupi = "artwork/yupi.png"
+image yuri_bed = "artwork/yuri_bed.png"
 
 image bg club_day2:
     choice:
