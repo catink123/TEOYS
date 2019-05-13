@@ -60,6 +60,8 @@ define audio.monika_ct = "mod_assets/bgm/monika_cheto_tam.ogg"
 define audio.monika_ct2 = "mod_assets/bgm/monika_cheto_tam2.ogg"
 define audio.s_and_m = "mod_assets/bgm/s_and_m.ogg"
 define audio.neshta = "mod_assets/bgm/neshta.ogg"
+define audio.room = "mod_assets/bgm/room.mp3"
+define audio.nebbia = "mod_assets/bgm/nebbia.mp3"
 
 define audio.t2 = "<loop 4.499>bgm/2.ogg"   #Sayori theme
 define audio.t2g = "bgm/2g.ogg"
@@ -125,6 +127,7 @@ define audio.laugh = "mod_assets/sounds/laugh.ogg"
 define audio.bell = "mod_assets/sounds/bell.ogg"
 define audio.seesaw = "mod_assets/sounds/seesaw.ogg"
 
+
 # Backgrounds
 image black = "#000000"
 image dark = "#000000e4"
@@ -188,6 +191,7 @@ image sayori_cry_bottom = "artwork/sayori_cry_bottom.png"
 image bg yurinight = "artwork/yurinight.png"
 image yupi = "artwork/yupi.png"
 image yuri_bed = "artwork/yuri_bed.png"
+image bg castle_outside = "bg/castle_outside.png"
 
 image bg club_day2:
     choice:

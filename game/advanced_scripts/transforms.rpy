@@ -358,6 +358,7 @@ define trueblack = MultipleTransition([
 
 #Override wipeleft with a proper-looking wipe that has a nice fade to it
 define wipeleft = ImageDissolve("images/menu/wipeleft.png", 0.5, ramplen=64)
+define polygon = ImageDissolve("gui/menu/polygon.png", 0.5, ramplen=64)
 
 #Wipe to black, pause for .25 seconds, then wipe to the next scene (indicates the passing of time between scenes)
 define wipeleft_scene = MultipleTransition([
