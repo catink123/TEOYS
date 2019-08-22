@@ -1530,17 +1530,18 @@
   scene black with dissolve_scene
   "Я на пару минут зашёл к Юри, мы поболтали и я пошёл обратно."
   scene bedroom with dissolve_scene
+  stop music fadeout 2.0
   menu:
     "Сегодня выходной. Что же мне делать?"
-    stop music fadeout 2.0
     "Пойти с Моникой в кафе Sun":
       play music monika_sun
       "Я начал собираться."
       scene 
       "Я уже около самого кафе, вижу, Моника машет мне рукой. Я подхожу ближе и сажусь за столик."
     "{i}work in progress{/i}":
-      #block of code to run
-  
+      "{i}not working...{/i}"
+  scene black
+  "end"
   # scene tbc
   # with dissolve_scene_full
   # "Продолжение следует..."
