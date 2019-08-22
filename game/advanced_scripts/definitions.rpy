@@ -62,6 +62,9 @@ define audio.s_and_m = "mod_assets/bgm/s_and_m.ogg"
 define audio.neshta = "mod_assets/bgm/neshta.ogg"
 define audio.room = "mod_assets/bgm/room.mp3"
 define audio.nebbia = "mod_assets/bgm/nebbia.mp3"
+define audio.lost_chair = "mod_assets/bgm/lost_chair.mp3"
+define audio.daremoinaisabaku = "mod_assets/bgm/daremoinaisabaku.mp3"
+define audio.monika_sun = "mod_assets/monika_sun.mp3"
 
 define audio.t2 = "<loop 4.499>bgm/2.ogg"   #Sayori theme
 define audio.t2g = "bgm/2g.ogg"
@@ -126,7 +129,8 @@ define audio.gasp = "mod_assets/sounds/gasp.ogg"
 define audio.laugh = "mod_assets/sounds/laugh.ogg"
 define audio.bell = "mod_assets/sounds/bell.ogg"
 define audio.seesaw = "mod_assets/sounds/seesaw.ogg"
-
+define audio.n_grumble = "mod_assets/sounds/n_grumble.ogg"
+define audio.y_laughter = "mod_assets/sounds/y_laughter.ogg"
 
 # Backgrounds
 image black = "#000000"
@@ -192,6 +196,17 @@ image bg yurinight = "artwork/yurinight.png"
 image yupi = "artwork/yupi.png"
 image yuri_bed = "artwork/yuri_bed.png"
 image bg castle_outside = "bg/castle_outside.png"
+image m_smiling = "artwork/m_smiling.png"
+image n_smiling = "artwork/n_smiling.png"
+image ns_together = "artwork/ns_together.png"
+image nsy_together = "artwork/nsy_together.png"
+image bg wooden_corridor = "bg/wooden_corridor.jpg"
+image YuNa = "artwork/YuNa.png"
+image YuNa2 = "artwork/YuNa2.png"
+image YuNa3 = "artwork/YuNa3.png"
+image y_hug = "artwork/y_hug.png"
+
+image yuri_chkrimer = Movie(play="images/cg/yuri_chkrimer.webm")
 
 image bg club_day2:
     choice:
