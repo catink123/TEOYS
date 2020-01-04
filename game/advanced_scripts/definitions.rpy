@@ -65,7 +65,7 @@ define audio.nebbia = "mod_assets/bgm/nebbia.mp3"
 define audio.lost_chair = "mod_assets/bgm/lost_chair.mp3"
 define audio.daremoinaisabaku = "mod_assets/bgm/daremoinaisabaku.mp3"
 define audio.monika_sun = "mod_assets/monika_sun.mp3"
-
+define audio.shizumiyukutaiyou = "mod_assets/bgm/shizumiyukutaiyou.mp3"
 define audio.t2 = "<loop 4.499>bgm/2.ogg"   #Sayori theme
 define audio.t2g = "bgm/2g.ogg"
 define audio.t2g2 = "<from 4.499 loop 4.499>bgm/2.ogg"
