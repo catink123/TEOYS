@@ -367,6 +367,8 @@ define wipeleft_scene = MultipleTransition([
     Solid("#000"), ImageDissolve("images/menu/wipeleft.png", 0.5, ramplen=64),
     True])
 
+define bsod = ImageDissolve("mod_assets/transitions/bsod.png", 0.5, ramplen=64)
+
 define tpause = Pause(0.25)
 
 ###White noise and effects
