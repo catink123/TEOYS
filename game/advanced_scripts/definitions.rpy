@@ -77,6 +77,7 @@ define audio.t3g3 = "<loop 4.618>bgm/3g2.ogg"
 define audio.t3m = "<loop 4.618>bgm/3.ogg"
 define audio.t4 = "<loop 19.451>bgm/4.ogg"  #Poem minigame
 define audio.t4g = "<loop 1.000>bgm/4g.ogg"
+define audio.eve = "mod_assets/bgm/eve.mp3"
 
 define audio.t5 = "<loop 4.444>bgm/5.ogg"   #Sharing poems...... 'Okay Everyone~!'
 #Hey Mod team, our themes aren't defined here in the original script.
@@ -205,6 +206,7 @@ image YuNa = "artwork/YuNa.png"
 image YuNa2 = "artwork/YuNa2.png"
 image YuNa3 = "artwork/YuNa3.png"
 image y_hug = "artwork/y_hug.png"
+image moonhole = "mod_assets/artwork/Mon_story.png"
 
 image yuri_chkrimer = Movie(play="images/cg/yuri_chkrimer.webm")
 

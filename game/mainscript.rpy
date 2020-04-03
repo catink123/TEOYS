@@ -1,9 +1,30 @@
-﻿label mainscript:
+﻿init python:
+  import platform
+  pcname = platform.node()
+m "%(pcname)s"
+label mainscript:
   stop music fadeout 2.0
   #scene bg koshka
   scene black
   with dissolve_scene_full
-  play music t10
+  play music eve
+  show moonhole
+  $ style.say_dialogue = style.bold
+  unknown"Если бы меня спросили..."
+  unknown "Ты ничего не хочешь изменить?"
+  unknown "Я бы ответила - нет."
+  unknown "Как автор, я не могу допустить измены своего произведения."
+  unknown "Но, порой, нам приходится изменять судьбу того, кто находится у нас в руках"
+  unknown"Сейчас я расскажу тебе сказку."
+  unknown"Маленькую утопию одной девушки, которая изменила свою судьбу."
+  unknown"Банально, не правда ли?"
+  unknown"Таких историй полным полно, но разве мы способны на что-то большее?"
+  unknown"%(pcname)s, позволь тебе поведать о земном..."
+  $ style.say_dialogue = style.normal
+  stop music fadeout 4.0
+  scene black 
+  $ renpy.pause(5)
+  play music room 
   "Вокруг так темно, лишь маленький холодок проходит по коже. Всё кажется таким реальным."
   "Воспоминания накатываются, как вихрь средь белого дня."
   "Я помню её, девочку, с которой так хорошо дружил."
